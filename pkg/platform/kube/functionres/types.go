@@ -3,8 +3,8 @@ package functionres
 import (
 	"context"
 
-	nuclioio "github.com/nuclio/nuclio/pkg/platform/kube/apis/nuclio.io/v1beta1"
-	"github.com/nuclio/nuclio/pkg/platformconfig"
+	nuclioio "github.com/pmker/genv/pkg/platform/kube/apis/nuclio.io/v1beta1"
+	"github.com/pmker/genv/pkg/platformconfig"
 
 	apps_v1beta1 "k8s.io/api/apps/v1beta1"
 	autos_v1 "k8s.io/api/autoscaling/v1"

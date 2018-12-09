@@ -16,7 +16,7 @@ limitations under the License.
 
 package databinding
 
-import "github.com/nuclio/nuclio/pkg/functionconfig"
+import "github.com/pmker/genv/pkg/functionconfig"
 
 type Configuration struct {
 	functionconfig.DataBinding

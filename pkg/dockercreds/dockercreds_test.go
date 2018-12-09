@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/dockerclient"
-	"github.com/nuclio/nuclio/test/compare"
+	"github.com/pmker/genv/pkg/dockerclient"
+	"github.com/pmker/genv/test/compare"
 
 	"github.com/nuclio/logger"
 	"github.com/nuclio/zap"

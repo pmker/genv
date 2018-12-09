@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/common"
+	"github.com/pmker/genv/pkg/common"
 
 	"github.com/rs/xid"
 	"github.com/stretchr/testify/suite"

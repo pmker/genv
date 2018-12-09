@@ -17,7 +17,7 @@ limitations under the License.
 package java
 
 import (
-	"github.com/nuclio/nuclio/pkg/processor/runtime"
+	"github.com/pmker/genv/pkg/processor/runtime"
 
 	"github.com/nuclio/logger"
 )

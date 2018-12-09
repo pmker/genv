@@ -19,8 +19,8 @@ package processorconfig
 import (
 	"io"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/processor"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/processor"
 
 	"github.com/ghodss/yaml"
 )

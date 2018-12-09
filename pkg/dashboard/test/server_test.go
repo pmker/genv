@@ -26,12 +26,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nuclio/nuclio/pkg/dashboard"
-	_ "github.com/nuclio/nuclio/pkg/dashboard/resource"
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/platformconfig"
-	"github.com/nuclio/nuclio/pkg/restful"
-	"github.com/nuclio/nuclio/test/compare"
+	"github.com/pmker/genv/pkg/dashboard"
+	_ "github.com/pmker/genv/pkg/dashboard/resource"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/platformconfig"
+	"github.com/pmker/genv/pkg/restful"
+	"github.com/pmker/genv/test/compare"
 
 	"github.com/nuclio/logger"
 	"github.com/nuclio/zap"

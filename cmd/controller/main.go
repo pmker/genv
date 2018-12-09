@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/nuclio/nuclio/cmd/controller/app"
-	"github.com/nuclio/nuclio/pkg/errors"
+	"github.com/pmker/genv/cmd/controller/app"
+	"github.com/pmker/genv/pkg/errors"
 )
 
 func getNamespace(namespaceArgument string) string {

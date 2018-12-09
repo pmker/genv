@@ -20,11 +20,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	nuclioio "github.com/nuclio/nuclio/pkg/platform/kube/apis/nuclio.io/v1beta1"
-	"github.com/nuclio/nuclio/pkg/platform/kube/functionres"
-	"github.com/nuclio/nuclio/pkg/platform/kube/operator"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/functionconfig"
+	nuclioio "github.com/pmker/genv/pkg/platform/kube/apis/nuclio.io/v1beta1"
+	"github.com/pmker/genv/pkg/platform/kube/functionres"
+	"github.com/pmker/genv/pkg/platform/kube/operator"
 
 	"github.com/nuclio/logger"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

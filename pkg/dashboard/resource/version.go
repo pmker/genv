@@ -19,10 +19,10 @@ package resource
 import (
 	"net/http"
 
-	"github.com/nuclio/nuclio/pkg/dashboard"
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/restful"
-	"github.com/nuclio/nuclio/pkg/version"
+	"github.com/pmker/genv/pkg/dashboard"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/restful"
+	"github.com/pmker/genv/pkg/version"
 
 	"github.com/nuclio/nuclio-sdk-go"
 )

@@ -17,8 +17,8 @@ limitations under the License.
 package trigger
 
 import (
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/processor/runtime"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/processor/runtime"
 )
 
 type Configuration struct {

@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/common"
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/playground"
-	"github.com/nuclio/nuclio/pkg/restful"
+	"github.com/pmker/genv/pkg/common"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/playground"
+	"github.com/pmker/genv/pkg/restful"
 
 	"github.com/nuclio/logger"
 	"github.com/nuclio/nuclio-sdk-go"

@@ -24,8 +24,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/processor/test/suite"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/processor/test/suite"
 )
 
 type Event struct {

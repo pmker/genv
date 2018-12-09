@@ -17,7 +17,7 @@ limitations under the License.
 package local
 
 import (
-	"github.com/nuclio/nuclio/pkg/platform"
+	"github.com/pmker/genv/pkg/platform"
 )
 
 type node struct{}

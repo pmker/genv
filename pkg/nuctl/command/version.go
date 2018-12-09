@@ -19,7 +19,7 @@ package command
 import (
 	"fmt"
 
-	"github.com/nuclio/nuclio/pkg/version"
+	"github.com/pmker/genv/pkg/version"
 
 	"github.com/spf13/cobra"
 )

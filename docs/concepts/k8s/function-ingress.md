@@ -41,7 +41,7 @@ TargetPort:               8080/TCP
 
 Run the following command to deploy the sample `helloworld` function; (the command assumes the use of Minikube):
 ```sh
-nuctl deploy -p https://raw.githubusercontent.com/nuclio/nuclio/master/hack/examples/golang/helloworld/helloworld.go --registry $(minikube ip):5000 helloworld --run-registry localhost:5000
+nuctl deploy -p https://raw.githubusercontent.com/pmker/genv/master/hack/examples/golang/helloworld/helloworld.go --registry $(minikube ip):5000 helloworld --run-registry localhost:5000
 ```
 
 And now, invoke the function by its path.
@@ -126,7 +126,7 @@ func Ingress(context *nuclio.Context, event nuclio.Event) (interface{}, error) {
 
 Deploy the function with the `nuctl` CLI. If you did not use Minikube, replace `$(minikube ip):5000` in the following command with your cluster IP:
 ```sh
-nuctl deploy -p https://raw.githubusercontent.com/nuclio/nuclio/master/hack/examples/golang/ingress/ingress.go --registry $(minikube ip):5000 ingress --run-registry localhost:5000 --verbose
+nuctl deploy -p https://raw.githubusercontent.com/pmker/genv/master/hack/examples/golang/ingress/ingress.go --registry $(minikube ip):5000 ingress --run-registry localhost:5000 --verbose
 ```
 
 Behind the scenes, `nuctl` populates a function CR, which is picked up by the Nuclio `controller`. The `controller` iterates through all the triggers and looks for the required ingresses. For each ingress, the controller creates a Kubernetes Ingress object, which triggers the Træfik ingress controller to reconfigure the reverse proxy. Following are sample `controller` logs:

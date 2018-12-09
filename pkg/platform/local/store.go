@@ -24,10 +24,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/nuclio/nuclio/pkg/dockerclient"
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/platform"
+	"github.com/pmker/genv/pkg/dockerclient"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/platform"
 
 	"github.com/nuclio/logger"
 	"github.com/nuclio/nuclio-sdk-go"

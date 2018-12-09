@@ -20,7 +20,7 @@ package platform
 import (
 	"net/http"
 
-	"github.com/nuclio/nuclio/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/functionconfig"
 
 	"github.com/nuclio/logger"
 )

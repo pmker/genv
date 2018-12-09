@@ -19,10 +19,10 @@ package prometheuspush
 import (
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/processor"
-	"github.com/nuclio/nuclio/pkg/processor/metricsink"
-	"github.com/nuclio/nuclio/pkg/processor/metricsink/prometheus"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/processor"
+	"github.com/pmker/genv/pkg/processor/metricsink"
+	"github.com/pmker/genv/pkg/processor/metricsink/prometheus"
 
 	"github.com/nuclio/logger"
 	prometheusclient "github.com/prometheus/client_golang/prometheus"

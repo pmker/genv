@@ -35,11 +35,11 @@ minikube start --vm-driver=virtualbox --extra-config=apiserver.authorization-mod
 ```
 
 **Set admin permissions:** bypass Minikube configuration issues by giving cluster-admin permissions to the Kubernetes services, so that services such as `kube-dns` can work in Minikube:
-> Note: You are encouraged to look at the [**kubedns-rbac**](https://github.com/nuclio/nuclio/blob/master/hack/minikube/resources/kubedns-rbac.yaml) file that's used in the following command, and the RBAC configuration files used in the [Nuclio installation](#install-nuclio) section, before applying the files, so that you don't get into the habit of blindly running things on your cluster (akin to running scripts off the internet as root).<br/>
+> Note: You are encouraged to look at the [**kubedns-rbac**](https://github.com/pmker/genv/blob/master/hack/minikube/resources/kubedns-rbac.yaml) file that's used in the following command, and the RBAC configuration files used in the [Nuclio installation](#install-nuclio) section, before applying the files, so that you don't get into the habit of blindly running things on your cluster (akin to running scripts off the internet as root).<br/>
 > If you don't want to elevate your Kubernetes services, run Minikube with RBAC disabled (omit `--extra-config` from `minikube start`) and skip the RBAC related commands in the Nuclio installation instructions.
 
 ```sh
-kubectl apply -f https://raw.githubusercontent.com/nuclio/nuclio/master/hack/minikube/resources/kubedns-rbac.yaml
+kubectl apply -f https://raw.githubusercontent.com/pmker/genv/master/hack/minikube/resources/kubedns-rbac.yaml
 ```
 
 **Bring up a Docker registry inside Minikube.** You'll later push your functions to this registry:
@@ -69,16 +69,16 @@ kubectl create namespace nuclio
 ```
 
 **Create the RBAC roles** that are required for using Nuclio (provided you didn't disable RBAC when [preparing Minikube](#prepare-minikube)):
-> As indicated in the [Minikube preparation](#prepare-minikube) instructions, you are encouraged to look at the [**nuclio-rbac.yaml**](https://github.com/nuclio/nuclio/blob/master/hack/k8s/resources/nuclio-rbac.yaml) file that's used in the following command before applying it.
+> As indicated in the [Minikube preparation](#prepare-minikube) instructions, you are encouraged to look at the [**nuclio-rbac.yaml**](https://github.com/pmker/genv/blob/master/hack/k8s/resources/nuclio-rbac.yaml) file that's used in the following command before applying it.
 
 ```sh
-kubectl apply -f https://raw.githubusercontent.com/nuclio/nuclio/master/hack/k8s/resources/nuclio-rbac.yaml
+kubectl apply -f https://raw.githubusercontent.com/pmker/genv/master/hack/k8s/resources/nuclio-rbac.yaml
 ```
 
 **Deploy Nuclio to the cluster:** the following command deploys the Nuclio controller and dashboard, among other resources:
 
 ```sh
-kubectl apply -f https://raw.githubusercontent.com/nuclio/nuclio/master/hack/k8s/resources/nuclio.yaml
+kubectl apply -f https://raw.githubusercontent.com/pmker/genv/master/hack/k8s/resources/nuclio.yaml
 ```
 
 Use the command `kubectl get pods --namespace nuclio` to verify both the controller and dashboard are running.
@@ -94,10 +94,10 @@ Browse to `http://localhost:8070` (after having forwarded this port as part of t
 
 ## Deploy a function with the Nuclio CLI (nuctl)
 
-Start by [downloading](https://github.com/nuclio/nuclio/releases) the latest version of the [`nuctl`](/docs/reference/nuctl/nuctl.md) Nuclio CLI for your platform, and then deploy the `helloworld` Go sample function. You can add the `--verbose` flag if you want to peek under the hood:
+Start by [downloading](https://github.com/pmker/genv/releases) the latest version of the [`nuctl`](/docs/reference/nuctl/nuctl.md) Nuclio CLI for your platform, and then deploy the `helloworld` Go sample function. You can add the `--verbose` flag if you want to peek under the hood:
 
 ```sh
-nuctl deploy helloworld -n nuclio -p https://raw.githubusercontent.com/nuclio/nuclio/master/hack/examples/golang/helloworld/helloworld.go --registry $(minikube ip):5000 --run-registry localhost:5000
+nuctl deploy helloworld -n nuclio -p https://raw.githubusercontent.com/pmker/genv/master/hack/examples/golang/helloworld/helloworld.go --registry $(minikube ip):5000 --run-registry localhost:5000
 ```
 
 > Note: The difference between the two registries specified in this command and the reason for their addresses being different is as follows:

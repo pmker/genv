@@ -20,7 +20,7 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/nuclio/nuclio/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/functionconfig"
 
 	"github.com/nuclio/logger"
 	"github.com/nuclio/zap"

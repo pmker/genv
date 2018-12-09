@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/partitioned"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/processor/trigger/partitioned"
 
 	"github.com/nuclio/logger"
 	v3iohttp "github.com/v3io/v3io-go-http"

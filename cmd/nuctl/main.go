@@ -19,8 +19,8 @@ package main
 import (
 	"os"
 
-	"github.com/nuclio/nuclio/cmd/nuctl/app"
-	"github.com/nuclio/nuclio/pkg/errors"
+	"github.com/pmker/genv/cmd/nuctl/app"
+	"github.com/pmker/genv/pkg/errors"
 )
 
 func main() {

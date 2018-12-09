@@ -17,9 +17,9 @@ limitations under the License.
 package eventhub
 
 import (
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/processor/databinding"
-	"github.com/nuclio/nuclio/pkg/processor/util/eventhub"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/processor/databinding"
+	"github.com/pmker/genv/pkg/processor/util/eventhub"
 
 	"github.com/nuclio/amqp"
 	"github.com/nuclio/logger"

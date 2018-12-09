@@ -19,8 +19,8 @@ package dockerclient
 import (
 	"testing"
 
-	"github.com/nuclio/nuclio/pkg/cmdrunner"
-	"github.com/nuclio/nuclio/pkg/common"
+	"github.com/pmker/genv/pkg/cmdrunner"
+	"github.com/pmker/genv/pkg/common"
 
 	"github.com/nuclio/logger"
 	"github.com/nuclio/zap"

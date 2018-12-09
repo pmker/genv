@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/platform"
-	nuclioio "github.com/nuclio/nuclio/pkg/platform/kube/apis/nuclio.io/v1beta1"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/platform"
+	nuclioio "github.com/pmker/genv/pkg/platform/kube/apis/nuclio.io/v1beta1"
 
 	"github.com/nuclio/logger"
 	"k8s.io/api/core/v1"

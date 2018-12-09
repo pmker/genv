@@ -18,9 +18,9 @@ package sinks
 
 import (
 	// import all sinks
-	_ "github.com/nuclio/nuclio/pkg/loggersink/appinsights"
-	_ "github.com/nuclio/nuclio/pkg/loggersink/stdout"
-	_ "github.com/nuclio/nuclio/pkg/processor/metricsink/appinsights"
-	_ "github.com/nuclio/nuclio/pkg/processor/metricsink/prometheus/pull"
-	_ "github.com/nuclio/nuclio/pkg/processor/metricsink/prometheus/push"
+	_ "github.com/pmker/genv/pkg/loggersink/appinsights"
+	_ "github.com/pmker/genv/pkg/loggersink/stdout"
+	_ "github.com/pmker/genv/pkg/processor/metricsink/appinsights"
+	_ "github.com/pmker/genv/pkg/processor/metricsink/prometheus/pull"
+	_ "github.com/pmker/genv/pkg/processor/metricsink/prometheus/push"
 )

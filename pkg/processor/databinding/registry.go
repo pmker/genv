@@ -17,8 +17,8 @@ limitations under the License.
 package databinding
 
 import (
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/registry"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/registry"
 
 	"github.com/nuclio/logger"
 )

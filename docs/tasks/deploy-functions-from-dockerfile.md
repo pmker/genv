@@ -27,7 +27,7 @@ Dockerfile deployment isn't better than source-based deployment; it's just anoth
 Create an empty directory in your preferred location. Then, download a simple Go handler to this directory:
 
 ```sh
-curl -LO https://raw.githubusercontent.com/nuclio/nuclio/master/hack/examples/golang/helloworld/helloworld.go
+curl -LO https://raw.githubusercontent.com/pmker/genv/master/hack/examples/golang/helloworld/helloworld.go
 ```
 
 Now, create a Dockerfile by following the guidelines in the [Go reference](/docs/reference/runtimes/golang/golang-reference.md#dockerfile).

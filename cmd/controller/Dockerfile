@@ -38,7 +38,7 @@ FROM alpine:3.7
 RUN apk add --no-cache ca-certificates
 
 # copy controller binary from build stage
-COPY --from=build /go/src/github.com/nuclio/nuclio/controller /usr/local/bin
+COPY --from=build /go/src/github.com/pmker/genv/controller /usr/local/bin
 
 # generate a version file
 ARG NUCLIO_VERSION_INFO_FILE_CONTENTS

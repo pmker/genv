@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/processor/test/callfunction"
-	"github.com/nuclio/nuclio/pkg/processor/test/cloudevents"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/http/test/suite"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/processor/test/callfunction"
+	"github.com/pmker/genv/pkg/processor/test/cloudevents"
+	"github.com/pmker/genv/pkg/processor/trigger/http/test/suite"
 
 	"github.com/nuclio/nuclio-sdk-go"
 	"github.com/satori/go.uuid"

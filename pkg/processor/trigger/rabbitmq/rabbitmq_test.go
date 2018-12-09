@@ -19,9 +19,9 @@ package rabbitmq
 import (
 	"testing"
 
-	"github.com/nuclio/nuclio/pkg/processor"
-	"github.com/nuclio/nuclio/pkg/processor/runtime"
-	"github.com/nuclio/nuclio/pkg/processor/test/suite"
+	"github.com/pmker/genv/pkg/processor"
+	"github.com/pmker/genv/pkg/processor/runtime"
+	"github.com/pmker/genv/pkg/processor/test/suite"
 
 	"github.com/stretchr/testify/suite"
 )

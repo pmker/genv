@@ -19,9 +19,9 @@ package runtime
 import (
 	"os"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/processor/databinding"
-	"github.com/nuclio/nuclio/pkg/processor/status"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/processor/databinding"
+	"github.com/pmker/genv/pkg/processor/status"
 
 	"github.com/nuclio/logger"
 	"github.com/nuclio/nuclio-sdk-go"

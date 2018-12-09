@@ -19,11 +19,11 @@ package app
 import (
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/platform/factory"
-	"github.com/nuclio/nuclio/pkg/platformconfig"
-	"github.com/nuclio/nuclio/pkg/playground"
-	"github.com/nuclio/nuclio/pkg/version"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/platform/factory"
+	"github.com/pmker/genv/pkg/platformconfig"
+	"github.com/pmker/genv/pkg/playground"
+	"github.com/pmker/genv/pkg/version"
 
 	"github.com/nuclio/zap"
 )

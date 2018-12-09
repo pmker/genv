@@ -19,8 +19,8 @@ package resource
 import (
 	"net/http"
 
-	"github.com/nuclio/nuclio/pkg/processor/webadmin"
-	"github.com/nuclio/nuclio/pkg/restful"
+	"github.com/pmker/genv/pkg/processor/webadmin"
+	"github.com/pmker/genv/pkg/restful"
 
 	"github.com/go-chi/chi"
 )

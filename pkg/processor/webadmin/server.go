@@ -17,9 +17,9 @@ limitations under the License.
 package webadmin
 
 import (
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/platformconfig"
-	"github.com/nuclio/nuclio/pkg/restful"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/platformconfig"
+	"github.com/pmker/genv/pkg/restful"
 
 	"github.com/nuclio/logger"
 )

@@ -16,7 +16,7 @@ limitations under the License.
 
 package functiontemplates
 
-import "github.com/nuclio/nuclio/pkg/functionconfig"
+import "github.com/pmker/genv/pkg/functionconfig"
 
 // FunctionTemplate holds a template of a function
 type FunctionTemplate struct {

@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/nuclio/nuclio/pkg/errors"
+	"github.com/pmker/genv/pkg/errors"
 
 	"github.com/mholt/archiver"
 	"github.com/nuclio/logger"

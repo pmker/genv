@@ -19,9 +19,9 @@ package appinsights
 import (
 	"strconv"
 
-	"github.com/nuclio/nuclio/pkg/processor/runtime"
-	"github.com/nuclio/nuclio/pkg/processor/trigger"
-	"github.com/nuclio/nuclio/pkg/processor/worker"
+	"github.com/pmker/genv/pkg/processor/runtime"
+	"github.com/pmker/genv/pkg/processor/trigger"
+	"github.com/pmker/genv/pkg/processor/worker"
 
 	"github.com/Microsoft/ApplicationInsights-Go/appinsights"
 )

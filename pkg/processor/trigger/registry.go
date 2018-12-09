@@ -17,10 +17,10 @@ limitations under the License.
 package trigger
 
 import (
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/processor/runtime"
-	"github.com/nuclio/nuclio/pkg/processor/worker"
-	"github.com/nuclio/nuclio/pkg/registry"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/processor/runtime"
+	"github.com/pmker/genv/pkg/processor/worker"
+	"github.com/pmker/genv/pkg/registry"
 
 	"github.com/nuclio/logger"
 )

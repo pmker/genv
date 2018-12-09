@@ -14,7 +14,7 @@ python (4):     encrypt, facerecognizer, helloworld, tensorflow
 package functiontemplates
 
 import (
-	"github.com/nuclio/nuclio/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/functionconfig"
 
 	"github.com/ghodss/yaml"
 )

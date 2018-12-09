@@ -20,14 +20,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/dashboard"
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/loggersink"
-	"github.com/nuclio/nuclio/pkg/platform/factory"
-	"github.com/nuclio/nuclio/pkg/platformconfig"
+	"github.com/pmker/genv/pkg/dashboard"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/loggersink"
+	"github.com/pmker/genv/pkg/platform/factory"
+	"github.com/pmker/genv/pkg/platformconfig"
 	// load all sinks
-	_ "github.com/nuclio/nuclio/pkg/sinks"
-	"github.com/nuclio/nuclio/pkg/version"
+	_ "github.com/pmker/genv/pkg/sinks"
+	"github.com/pmker/genv/pkg/version"
 
 	"github.com/nuclio/logger"
 )

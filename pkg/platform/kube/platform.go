@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/platform/abstract"
-	nuclioio "github.com/nuclio/nuclio/pkg/platform/kube/apis/nuclio.io/v1beta1"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/platform/abstract"
+	nuclioio "github.com/pmker/genv/pkg/platform/kube/apis/nuclio.io/v1beta1"
 
 	"github.com/mitchellh/go-homedir"
 	"github.com/nuclio/logger"

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/processor/worker"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/processor/worker"
 
 	"github.com/nuclio/logger"
 	kinesisclient "github.com/sendgridlabs/go-kinesis"

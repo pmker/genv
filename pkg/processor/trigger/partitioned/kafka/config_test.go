@@ -19,7 +19,7 @@ package kafka
 import (
 	"testing"
 
-	"github.com/nuclio/nuclio/pkg/processor/trigger/partitioned"
+	"github.com/pmker/genv/pkg/processor/trigger/partitioned"
 
 	"github.com/nuclio/zap"
 	"github.com/stretchr/testify/suite"

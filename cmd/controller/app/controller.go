@@ -19,14 +19,14 @@ package app
 import (
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/loggersink"
-	nuclioio_client "github.com/nuclio/nuclio/pkg/platform/kube/client/clientset/versioned"
-	"github.com/nuclio/nuclio/pkg/platform/kube/controller"
-	"github.com/nuclio/nuclio/pkg/platform/kube/functionres"
-	"github.com/nuclio/nuclio/pkg/platformconfig"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/loggersink"
+	nuclioio_client "github.com/pmker/genv/pkg/platform/kube/client/clientset/versioned"
+	"github.com/pmker/genv/pkg/platform/kube/controller"
+	"github.com/pmker/genv/pkg/platform/kube/functionres"
+	"github.com/pmker/genv/pkg/platformconfig"
 	// load all sinks
-	_ "github.com/nuclio/nuclio/pkg/sinks"
+	_ "github.com/pmker/genv/pkg/sinks"
 
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"

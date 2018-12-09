@@ -17,7 +17,7 @@ limitations under the License.
 package metricsink
 
 import (
-	"github.com/nuclio/nuclio/pkg/platformconfig"
+	"github.com/pmker/genv/pkg/platformconfig"
 )
 
 type Configuration struct {

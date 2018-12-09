@@ -19,7 +19,7 @@ package eventhubutil
 import (
 	"fmt"
 
-	"github.com/nuclio/nuclio/pkg/errors"
+	"github.com/pmker/genv/pkg/errors"
 
 	eventhubclient "github.com/nuclio/amqp"
 )

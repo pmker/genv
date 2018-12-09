@@ -74,7 +74,7 @@ COPY cmd/dashboard/docker/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build-static /home/nuclio/dashboard/src/dist /etc/nginx/static/
 
 # copy dashboard binary from build binary stage
-COPY --from=build-binary /go/src/github.com/nuclio/nuclio/dashboard /usr/local/bin
+COPY --from=build-binary /go/src/github.com/pmker/genv/dashboard /usr/local/bin
 
 # generate a version file
 ARG NUCLIO_VERSION_INFO_FILE_CONTENTS

@@ -19,10 +19,10 @@ package kickstart
 import (
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/common"
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/processor/trigger"
-	"github.com/nuclio/nuclio/pkg/processor/worker"
+	"github.com/pmker/genv/pkg/common"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/processor/trigger"
+	"github.com/pmker/genv/pkg/processor/worker"
 
 	"github.com/nuclio/logger"
 )

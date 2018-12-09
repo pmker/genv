@@ -17,9 +17,9 @@ limitations under the License.
 package metricsink
 
 import (
-	"github.com/nuclio/nuclio/pkg/platformconfig"
-	"github.com/nuclio/nuclio/pkg/processor"
-	"github.com/nuclio/nuclio/pkg/registry"
+	"github.com/pmker/genv/pkg/platformconfig"
+	"github.com/pmker/genv/pkg/processor"
+	"github.com/pmker/genv/pkg/registry"
 
 	"github.com/nuclio/logger"
 )

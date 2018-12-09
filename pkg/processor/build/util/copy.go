@@ -24,8 +24,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/nuclio/nuclio/pkg/common"
-	"github.com/nuclio/nuclio/pkg/errors"
+	"github.com/pmker/genv/pkg/common"
+	"github.com/pmker/genv/pkg/errors"
 )
 
 // CopyTo copies source to dest

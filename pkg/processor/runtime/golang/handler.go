@@ -1,8 +1,8 @@
 package golang
 
 import (
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/processor/runtime"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/processor/runtime"
 
 	"github.com/nuclio/logger"
 	"github.com/nuclio/nuclio-sdk-go"

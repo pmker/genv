@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/nuclio/nuclio/pkg/platform/kube/apis/nuclio.io"
+	"github.com/pmker/genv/pkg/platform/kube/apis/nuclio.io"
 )
 
 // SchemeGroupVersion is group version used to register these objects

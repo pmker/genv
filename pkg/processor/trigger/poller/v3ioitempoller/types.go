@@ -17,10 +17,10 @@ limitations under the License.
 package v3ioitempoller
 
 import (
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/processor/runtime"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/poller"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/processor/runtime"
+	"github.com/pmker/genv/pkg/processor/trigger/poller"
 
 	"github.com/mitchellh/mapstructure"
 )

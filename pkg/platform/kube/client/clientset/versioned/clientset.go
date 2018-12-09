@@ -20,7 +20,7 @@ package versioned
 
 import (
 	glog "github.com/golang/glog"
-	nucliov1beta1 "github.com/nuclio/nuclio/pkg/platform/kube/client/clientset/versioned/typed/nuclio.io/v1beta1"
+	nucliov1beta1 "github.com/pmker/genv/pkg/platform/kube/client/clientset/versioned/typed/nuclio.io/v1beta1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

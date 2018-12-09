@@ -20,10 +20,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/common"
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/platformconfig"
-	"github.com/nuclio/nuclio/pkg/processor/trigger"
+	"github.com/pmker/genv/pkg/common"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/platformconfig"
+	"github.com/pmker/genv/pkg/processor/trigger"
 
 	"github.com/nuclio/logger"
 	"github.com/prometheus/client_golang/prometheus"

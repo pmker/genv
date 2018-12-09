@@ -24,10 +24,10 @@ import (
 	"path"
 	"text/template"
 
-	"github.com/nuclio/nuclio/pkg/common"
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/processor/build/runtime"
-	"github.com/nuclio/nuclio/pkg/version"
+	"github.com/pmker/genv/pkg/common"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/processor/build/runtime"
+	"github.com/pmker/genv/pkg/version"
 )
 
 type java struct {

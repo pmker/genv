@@ -43,16 +43,16 @@ unset mypassword
 ```
 
 **Create the RBAC roles** that are required for using Nuclio:
-> Note: You are encouraged to look at the [**nuclio-rbac.yaml**](https://github.com/nuclio/nuclio/blob/master/hack/k8s/resources/nuclio-rbac.yaml) file that's used in the following command before applying it, so that you don't get into the habit of blindly running things on your cluster (akin to running scripts off the internet as root).
+> Note: You are encouraged to look at the [**nuclio-rbac.yaml**](https://github.com/pmker/genv/blob/master/hack/k8s/resources/nuclio-rbac.yaml) file that's used in the following command before applying it, so that you don't get into the habit of blindly running things on your cluster (akin to running scripts off the internet as root).
 
 ```sh
-kubectl apply -f https://raw.githubusercontent.com/nuclio/nuclio/master/hack/k8s/resources/nuclio-rbac.yaml
+kubectl apply -f https://raw.githubusercontent.com/pmker/genv/master/hack/k8s/resources/nuclio-rbac.yaml
 ```
 
 **Deploy Nuclio to the cluster:** the following command deploys the Nuclio controller and dashboard, among other resources:
 
 ```sh
-kubectl apply -f https://raw.githubusercontent.com/nuclio/nuclio/master/hack/k8s/resources/nuclio.yaml
+kubectl apply -f https://raw.githubusercontent.com/pmker/genv/master/hack/k8s/resources/nuclio.yaml
 ```
 
 > Note: In this example, the Nuclio dashboard service has full access to the local machine's Docker daemon. If you're concerned about the security implications, isolate the dashboard in its own node. The Nuclio team is working with the community to establish a secure and robust on-cluster build mechanism.
@@ -70,11 +70,11 @@ Browse to `http://localhost:8070` (after having forwarded this port as part of t
 
 ## Deploy a function with the Nuclio CLI (nuctl)
 
-Start by [downloading](https://github.com/nuclio/nuclio/releases) the latest version of the [`nuctl`](/docs/reference/nuctl/nuctl.md) Nuclio CLI for your platform, and then deploy the `helloworld` Go sample function. You can add the `--verbose` flag if you want to peek under the hood:
+Start by [downloading](https://github.com/pmker/genv/releases) the latest version of the [`nuctl`](/docs/reference/nuctl/nuctl.md) Nuclio CLI for your platform, and then deploy the `helloworld` Go sample function. You can add the `--verbose` flag if you want to peek under the hood:
 > Note: If you are using Docker Hub, the URL here includes your username - `registry.hub.docker.com/<username>`.
 
 ```sh
-nuctl deploy helloworld -n nuclio -p https://raw.githubusercontent.com/nuclio/nuclio/master/hack/examples/golang/helloworld/helloworld.go --registry <URL>
+nuctl deploy helloworld -n nuclio -p https://raw.githubusercontent.com/pmker/genv/master/hack/examples/golang/helloworld/helloworld.go --registry <URL>
 ```
 
 Then, invoke the function:

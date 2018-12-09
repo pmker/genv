@@ -17,7 +17,7 @@ limitations under the License.
 package webadmin
 
 import (
-	"github.com/nuclio/nuclio/pkg/registry"
+	"github.com/pmker/genv/pkg/registry"
 )
 
 var WebAdminResourceRegistrySingleton = registry.NewRegistry("webadmin_resource")

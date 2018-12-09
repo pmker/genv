@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/nuclio/nuclio/pkg/platform/kube/client/clientset/versioned"
-	internalinterfaces "github.com/nuclio/nuclio/pkg/platform/kube/client/informers/externalversions/internalinterfaces"
-	nuclio_io "github.com/nuclio/nuclio/pkg/platform/kube/client/informers/externalversions/nuclio.io"
+	versioned "github.com/pmker/genv/pkg/platform/kube/client/clientset/versioned"
+	internalinterfaces "github.com/pmker/genv/pkg/platform/kube/client/informers/externalversions/internalinterfaces"
+	nuclio_io "github.com/pmker/genv/pkg/platform/kube/client/informers/externalversions/nuclio.io"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

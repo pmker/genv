@@ -21,12 +21,12 @@ import (
 	"path"
 	"strings"
 
-	"github.com/nuclio/nuclio/pkg/cmdrunner"
-	"github.com/nuclio/nuclio/pkg/common"
-	"github.com/nuclio/nuclio/pkg/dockerclient"
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/version"
+	"github.com/pmker/genv/pkg/cmdrunner"
+	"github.com/pmker/genv/pkg/common"
+	"github.com/pmker/genv/pkg/dockerclient"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/version"
 
 	"github.com/nuclio/logger"
 )

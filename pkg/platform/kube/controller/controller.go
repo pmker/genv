@@ -19,11 +19,11 @@ package controller
 import (
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	nuclioio_client "github.com/nuclio/nuclio/pkg/platform/kube/client/clientset/versioned"
-	"github.com/nuclio/nuclio/pkg/platform/kube/functionres"
-	"github.com/nuclio/nuclio/pkg/platformconfig"
-	"github.com/nuclio/nuclio/pkg/version"
+	"github.com/pmker/genv/pkg/errors"
+	nuclioio_client "github.com/pmker/genv/pkg/platform/kube/client/clientset/versioned"
+	"github.com/pmker/genv/pkg/platform/kube/functionres"
+	"github.com/pmker/genv/pkg/platformconfig"
+	"github.com/pmker/genv/pkg/version"
 
 	"github.com/nuclio/logger"
 	"k8s.io/client-go/kubernetes"

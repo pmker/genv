@@ -20,8 +20,8 @@ import (
 	"flag"
 	"os"
 
-	"github.com/nuclio/nuclio/cmd/playground/app"
-	_ "github.com/nuclio/nuclio/pkg/playground/resource"
+	"github.com/pmker/genv/cmd/playground/app"
+	_ "github.com/pmker/genv/pkg/playground/resource"
 )
 
 func main() {

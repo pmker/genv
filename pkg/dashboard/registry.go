@@ -17,7 +17,7 @@ limitations under the License.
 package dashboard
 
 import (
-	"github.com/nuclio/nuclio/pkg/registry"
+	"github.com/pmker/genv/pkg/registry"
 )
 
 var DashboardResourceRegistrySingleton = registry.NewRegistry("dashboard_resource")

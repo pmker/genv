@@ -19,7 +19,7 @@ package platformconfig
 import (
 	"fmt"
 
-	"github.com/nuclio/nuclio/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/functionconfig"
 )
 
 type Configuration struct {

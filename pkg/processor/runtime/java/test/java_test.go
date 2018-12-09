@@ -23,8 +23,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/http/test/suite"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/processor/trigger/http/test/suite"
 
 	"github.com/stretchr/testify/suite"
 )

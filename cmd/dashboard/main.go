@@ -20,9 +20,9 @@ import (
 	"flag"
 	"os"
 
-	"github.com/nuclio/nuclio/cmd/dashboard/app"
-	_ "github.com/nuclio/nuclio/pkg/dashboard/resource"
-	"github.com/nuclio/nuclio/pkg/errors"
+	"github.com/pmker/genv/cmd/dashboard/app"
+	_ "github.com/pmker/genv/pkg/dashboard/resource"
+	"github.com/pmker/genv/pkg/errors"
 )
 
 func getNamespace(namespaceArgument string) string {

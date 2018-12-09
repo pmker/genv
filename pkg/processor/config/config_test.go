@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/processor"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/processor"
 
 	"github.com/nuclio/logger"
 	"github.com/stretchr/testify/suite"

@@ -19,8 +19,8 @@ package python
 import (
 	"fmt"
 
-	"github.com/nuclio/nuclio/pkg/processor/build/runtime"
-	"github.com/nuclio/nuclio/pkg/version"
+	"github.com/pmker/genv/pkg/processor/build/runtime"
+	"github.com/pmker/genv/pkg/version"
 )
 
 type python struct {

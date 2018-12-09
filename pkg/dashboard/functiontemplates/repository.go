@@ -19,7 +19,7 @@ package functiontemplates
 import (
 	"encoding/base64"
 
-	"github.com/nuclio/nuclio/pkg/errors"
+	"github.com/pmker/genv/pkg/errors"
 
 	"github.com/ghodss/yaml"
 	"github.com/nuclio/logger"

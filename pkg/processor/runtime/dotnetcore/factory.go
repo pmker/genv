@@ -17,8 +17,8 @@ limitations under the License.
 package dotnetcore
 
 import (
-	// "github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/processor/runtime"
+	// "github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/processor/runtime"
 
 	"github.com/nuclio/logger"
 )

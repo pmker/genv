@@ -17,9 +17,9 @@ limitations under the License.
 package worker
 
 import (
-	"github.com/nuclio/nuclio/pkg/processor/cloudevent"
-	"github.com/nuclio/nuclio/pkg/processor/runtime"
-	"github.com/nuclio/nuclio/pkg/processor/status"
+	"github.com/pmker/genv/pkg/processor/cloudevent"
+	"github.com/pmker/genv/pkg/processor/runtime"
+	"github.com/pmker/genv/pkg/processor/status"
 
 	"github.com/nuclio/logger"
 	"github.com/nuclio/nuclio-sdk-go"

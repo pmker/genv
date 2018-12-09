@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/test/compare"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/test/compare"
 
 	"github.com/nuclio/logger"
 	"github.com/nuclio/zap"

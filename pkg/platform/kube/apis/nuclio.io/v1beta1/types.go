@@ -1,8 +1,8 @@
 package v1beta1
 
 import (
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/platform"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/platform"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

@@ -19,8 +19,8 @@ package kafka
 import (
 	"fmt"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/partitioned"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/processor/trigger/partitioned"
 
 	"github.com/Shopify/sarama"
 	"github.com/nuclio/logger"

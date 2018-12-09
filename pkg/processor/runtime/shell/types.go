@@ -1,8 +1,8 @@
 package shell
 
 import (
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/processor/runtime"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/processor/runtime"
 
 	"github.com/mitchellh/mapstructure"
 )

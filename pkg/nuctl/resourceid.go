@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nuclio/nuclio/pkg/errors"
+	"github.com/pmker/genv/pkg/errors"
 )
 
 func ParseResourceIdentifier(resourceIdentifier string) (resourceName string,

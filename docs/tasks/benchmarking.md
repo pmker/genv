@@ -17,7 +17,7 @@ To benchmark Nuclio, you will need three components:
 
 1. [Docker](https://www.docker.com): You'll use the "local" platform to benchmark so all you'll need is Docker
 2. [wrk](https://github.com/wg/wrk/wiki/Installing-Wrk-on-Linux): A benchmarking utility
-3. [`nuctl`](https://github.com/nuclio/nuclio/releases): All you'll need is the `nuctl` CLI. It will pull all the necessary components
+3. [`nuctl`](https://github.com/pmker/genv/releases): All you'll need is the `nuctl` CLI. It will pull all the necessary components
 
 Obviously Nuclio will only be as fast as the hardware it runs on. In this case you'll showcase benchmarks on an AWS `c5.9xlarge` - a 36 core machine. With Nuclio you leverage parallelism, so adding cores contributes to performance. In these examples you'll set the # of workers to the # of cores - experiment on your platform to get the most performance.
 
@@ -25,7 +25,7 @@ Obviously Nuclio will only be as fast as the hardware it runs on. In this case y
 
 Deploy an empty Go function with 36 workers:
 ```sh
-nuctl deploy helloworld-go -n nuclio -p https://raw.githubusercontent.com/nuclio/nuclio/development/hack/examples/golang/empty/empty.go --platform local --triggers '{"mh": {"kind": "http", "maxWorkers": 36}}'
+nuctl deploy helloworld-go -n nuclio -p https://raw.githubusercontent.com/pmker/genv/development/hack/examples/golang/empty/empty.go --platform local --triggers '{"mh": {"kind": "http", "maxWorkers": 36}}'
 ```
 
 Run the benchmark:
@@ -45,7 +45,7 @@ Transfer/sec:     33.36MB
 
 Deploy an empty Python function with 36 workers:
 ```sh
-nuctl deploy helloworld-py -n nuclio -p https://raw.githubusercontent.com/nuclio/nuclio/development/hack/examples/python/empty/empty.py --platform local --triggers '{"mh": {"kind": "http", "maxWorkers": 36}}' --runtime python:2.7 --handler empty:handler
+nuctl deploy helloworld-py -n nuclio -p https://raw.githubusercontent.com/pmker/genv/development/hack/examples/python/empty/empty.py --platform local --triggers '{"mh": {"kind": "http", "maxWorkers": 36}}' --runtime python:2.7 --handler empty:handler
 ```
 
 Run the benchmark:
@@ -65,7 +65,7 @@ Transfer/sec:      5.10MB
 
 Deploy an empty Python function with 36 workers:
 ```sh
-nuctl deploy helloworld-py -n nuclio -p https://raw.githubusercontent.com/nuclio/nuclio/development/hack/examples/python/empty/empty.py --platform local --triggers '{"mh": {"kind": "http", "maxWorkers": 36}}' --runtime pypy --handler empty:handler
+nuctl deploy helloworld-py -n nuclio -p https://raw.githubusercontent.com/pmker/genv/development/hack/examples/python/empty/empty.py --platform local --triggers '{"mh": {"kind": "http", "maxWorkers": 36}}' --runtime pypy --handler empty:handler
 ```
 
 Run the benchmark:
@@ -86,7 +86,7 @@ Transfer/sec:      5.56MB
 
 Deploy an empty C# function with 36 workers:
 ``` sh
-nuctl deploy helloworld-dotnetcore -n nuclio -p https://raw.githubusercontent.com/nuclio/nuclio/development/hack/examples/dotnetcore/empty/empty.cs --platform local --triggers '{"mh": {"kind": "http", "maxWorkers": 36}}' --runtime dotnetcore --handler nuclio:empty
+nuctl deploy helloworld-dotnetcore -n nuclio -p https://raw.githubusercontent.com/pmker/genv/development/hack/examples/dotnetcore/empty/empty.cs --platform local --triggers '{"mh": {"kind": "http", "maxWorkers": 36}}' --runtime dotnetcore --handler nuclio:empty
 ```
 
 Run the benchmark:
@@ -106,7 +106,7 @@ Transfer/sec:      5.72MB
 
 Deploy an empty Java function with 36 workers:
 ```sh
-nuctl deploy helloworld-java -n nuclio -p https://raw.githubusercontent.com/nuclio/nuclio/development/hack/examples/java/empty/EmptyHandler.java --platform local --triggers '{"mh": {"kind": "http", "maxWorkers": 36}}' --runtime java --handler EmptyHandler
+nuctl deploy helloworld-java -n nuclio -p https://raw.githubusercontent.com/pmker/genv/development/hack/examples/java/empty/EmptyHandler.java --platform local --triggers '{"mh": {"kind": "http", "maxWorkers": 36}}' --runtime java --handler EmptyHandler
 ```
 
 Run the benchmark:
@@ -126,7 +126,7 @@ Transfer/sec:      5.80MB
 
 Deploy an empty NodeJS function with 36 workers:
 ```sh
-nuctl deploy helloworld-njs -n nuclio -p https://raw.githubusercontent.com/nuclio/nuclio/development/hack/examples/nodejs/empty/empty.js --platform local --triggers '{"mh": {"kind": "http", "maxWorkers": 36}}' --runtime nodejs --handler empty:handler
+nuctl deploy helloworld-njs -n nuclio -p https://raw.githubusercontent.com/pmker/genv/development/hack/examples/nodejs/empty/empty.js --platform local --triggers '{"mh": {"kind": "http", "maxWorkers": 36}}' --runtime nodejs --handler empty:handler
 ```
 
 Run the benchmark:

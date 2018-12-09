@@ -30,11 +30,11 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/nuclio/nuclio/pkg/common"
-	"github.com/nuclio/nuclio/pkg/dashboard/functiontemplates"
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/processor/build/inlineparser"
+	"github.com/pmker/genv/pkg/common"
+	"github.com/pmker/genv/pkg/dashboard/functiontemplates"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/processor/build/inlineparser"
 	"github.com/satori/go.uuid"
 
 	"github.com/ghodss/yaml"
@@ -79,7 +79,7 @@ The following functions are included for each supported runtime:
 package functiontemplates
 
 import (
-	"github.com/nuclio/nuclio/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/functionconfig"
 
 	"github.com/ghodss/yaml"
 )

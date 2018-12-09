@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/nuclio/nuclio/pkg/dockerclient"
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/http/test/suite"
+	"github.com/pmker/genv/pkg/dockerclient"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/processor/trigger/http/test/suite"
 )
 
 // CallFunctionTestSuite tests calling functions from within a function using context.platform.call_function

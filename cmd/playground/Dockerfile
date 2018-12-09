@@ -47,7 +47,7 @@ RUN apk --update --no-cache add ca-certificates git curl \
     && apk del curl
 
 # copy playground binary from build stage
-COPY --from=build /go/src/github.com/nuclio/nuclio/playground /usr/local/bin
+COPY --from=build /go/src/github.com/pmker/genv/playground /usr/local/bin
 COPY cmd/playground/static /etc/nuclio/playground/assets
 
 RUN mkdir -p /etc/nuclio/playground/sources

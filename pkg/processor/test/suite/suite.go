@@ -23,12 +23,12 @@ import (
 	"path"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/common"
-	"github.com/nuclio/nuclio/pkg/dockerclient"
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/platform/local"
-	"github.com/nuclio/nuclio/pkg/version"
+	"github.com/pmker/genv/pkg/common"
+	"github.com/pmker/genv/pkg/dockerclient"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/platform/local"
+	"github.com/pmker/genv/pkg/version"
 
 	"github.com/nuclio/logger"
 	"github.com/nuclio/zap"

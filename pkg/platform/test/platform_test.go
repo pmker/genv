@@ -20,8 +20,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/platform/factory"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/platform/factory"
 
 	"github.com/nuclio/logger"
 	"github.com/nuclio/zap"

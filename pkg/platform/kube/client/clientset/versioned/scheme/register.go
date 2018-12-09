@@ -19,7 +19,7 @@ limitations under the License.
 package scheme
 
 import (
-	nucliov1beta1 "github.com/nuclio/nuclio/pkg/platform/kube/apis/nuclio.io/v1beta1"
+	nucliov1beta1 "github.com/pmker/genv/pkg/platform/kube/apis/nuclio.io/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

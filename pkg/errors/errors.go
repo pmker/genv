@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-// Package errors provides an api similar to github.com/nuclio/nuclio/pkg/errors
+// Package errors provides an api similar to github.com/pmker/genv/pkg/errors
 // However we don't carry stack trace around for performance
 // (see https://github.com/pkg/errors/issues/124)
 package errors

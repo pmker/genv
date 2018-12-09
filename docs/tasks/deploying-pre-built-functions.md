@@ -19,7 +19,7 @@ In this scenario, you'll use the [Go hello-world example](/hack/examples/golang/
 Using `nuctl`, you can issue a build - specifying the URL of the Go hello-world:
 
 ```sh
-nuctl build hello-world --path https://raw.githubusercontent.com/nuclio/nuclio/master/hack/examples/golang/helloworld/helloworld.go \
+nuctl build hello-world --path https://raw.githubusercontent.com/pmker/genv/master/hack/examples/golang/helloworld/helloworld.go \
     --registry $(minikube ip):5000
 ```
 

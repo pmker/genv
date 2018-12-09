@@ -22,10 +22,10 @@ import (
 	"os"
 	"sort"
 
-	"github.com/nuclio/nuclio/cmd/processor/app"
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/processor/runtime"
-	_ "github.com/nuclio/nuclio/pkg/processor/webadmin/resource"
+	"github.com/pmker/genv/cmd/processor/app"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/processor/runtime"
+	_ "github.com/pmker/genv/pkg/processor/webadmin/resource"
 )
 
 func run() error {

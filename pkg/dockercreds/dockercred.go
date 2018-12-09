@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/dockerclient"
-	"github.com/nuclio/nuclio/pkg/errors"
+	"github.com/pmker/genv/pkg/dockerclient"
+	"github.com/pmker/genv/pkg/errors"
 )
 
 type dockerCred struct {

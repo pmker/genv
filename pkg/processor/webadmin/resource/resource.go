@@ -17,9 +17,9 @@ limitations under the License.
 package resource
 
 import (
-	"github.com/nuclio/nuclio/cmd/processor/app"
-	"github.com/nuclio/nuclio/pkg/processor/webadmin"
-	"github.com/nuclio/nuclio/pkg/restful"
+	"github.com/pmker/genv/cmd/processor/app"
+	"github.com/pmker/genv/pkg/processor/webadmin"
+	"github.com/pmker/genv/pkg/restful"
 )
 
 type resource struct {

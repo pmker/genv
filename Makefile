@@ -55,10 +55,10 @@ NUCLIO_DOCKER_IMAGE_TAG=$(NUCLIO_LABEL)-$(NUCLIO_ARCH)
 
 # Link flags
 GO_LINK_FLAGS ?= -s -w
-GO_LINK_FLAGS_INJECT_VERSION := $(GO_LINK_FLAGS) -X github.com/nuclio/nuclio/pkg/version.gitCommit=$(NUCLIO_VERSION_GIT_COMMIT) \
-	-X github.com/nuclio/nuclio/pkg/version.label=$(NUCLIO_LABEL) \
-	-X github.com/nuclio/nuclio/pkg/version.os=$(NUCLIO_OS) \
-	-X github.com/nuclio/nuclio/pkg/version.arch=$(NUCLIO_ARCH)
+GO_LINK_FLAGS_INJECT_VERSION := $(GO_LINK_FLAGS) -X github.com/pmker/genv/pkg/version.gitCommit=$(NUCLIO_VERSION_GIT_COMMIT) \
+	-X github.com/pmker/genv/pkg/version.label=$(NUCLIO_LABEL) \
+	-X github.com/pmker/genv/pkg/version.os=$(NUCLIO_OS) \
+	-X github.com/pmker/genv/pkg/version.arch=$(NUCLIO_ARCH)
 
 # inject version info as file
 NUCLIO_BUILD_ARGS_VERSION_INFO_FILE = --build-arg NUCLIO_VERSION_INFO_FILE_CONTENTS="$(NUCLIO_VERSION_INFO)"
@@ -295,7 +295,7 @@ lint: ensure-gopath
 
 	@echo Verifying imports...
 	$(GOPATH)/bin/impi \
-		--local github.com/nuclio/nuclio/ \
+		--local github.com/pmker/genv/ \
 		--scheme stdLocalThirdParty \
 		--skip pkg/platform/kube/apis \
 		--skip pkg/platform/kube/client \

@@ -17,8 +17,8 @@ limitations under the License.
 package loggersink
 
 import (
-	"github.com/nuclio/nuclio/pkg/platformconfig"
-	"github.com/nuclio/nuclio/pkg/registry"
+	"github.com/pmker/genv/pkg/platformconfig"
+	"github.com/pmker/genv/pkg/registry"
 
 	"github.com/nuclio/logger"
 )

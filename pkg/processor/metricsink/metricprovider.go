@@ -16,7 +16,7 @@ limitations under the License.
 
 package metricsink
 
-import "github.com/nuclio/nuclio/pkg/processor/trigger"
+import "github.com/pmker/genv/pkg/processor/trigger"
 
 // MetricProvider provides access to all metrics of the processor
 type MetricProvider interface {

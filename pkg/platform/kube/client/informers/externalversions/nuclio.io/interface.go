@@ -19,8 +19,8 @@ limitations under the License.
 package nuclio
 
 import (
-	internalinterfaces "github.com/nuclio/nuclio/pkg/platform/kube/client/informers/externalversions/internalinterfaces"
-	v1beta1 "github.com/nuclio/nuclio/pkg/platform/kube/client/informers/externalversions/nuclio.io/v1beta1"
+	internalinterfaces "github.com/pmker/genv/pkg/platform/kube/client/informers/externalversions/internalinterfaces"
+	v1beta1 "github.com/pmker/genv/pkg/platform/kube/client/informers/externalversions/nuclio.io/v1beta1"
 )
 
 // Interface provides access to each of this group's versions.

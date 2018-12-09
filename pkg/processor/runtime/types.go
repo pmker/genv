@@ -17,7 +17,7 @@ limitations under the License.
 package runtime
 
 import (
-	"github.com/nuclio/nuclio/pkg/processor"
+	"github.com/pmker/genv/pkg/processor"
 
 	"github.com/nuclio/logger"
 )

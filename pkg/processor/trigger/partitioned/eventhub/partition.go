@@ -20,8 +20,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/partitioned"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/processor/trigger/partitioned"
 
 	"github.com/nuclio/amqp"
 	"github.com/nuclio/logger"

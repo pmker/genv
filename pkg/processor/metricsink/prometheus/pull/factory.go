@@ -17,10 +17,10 @@ limitations under the License.
 package prometheuspull
 
 import (
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/platformconfig"
-	"github.com/nuclio/nuclio/pkg/processor"
-	"github.com/nuclio/nuclio/pkg/processor/metricsink"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/platformconfig"
+	"github.com/pmker/genv/pkg/processor"
+	"github.com/pmker/genv/pkg/processor/metricsink"
 
 	"github.com/nuclio/logger"
 )

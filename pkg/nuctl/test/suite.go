@@ -24,10 +24,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/nuclio/nuclio/pkg/cmdrunner"
-	"github.com/nuclio/nuclio/pkg/dockerclient"
-	"github.com/nuclio/nuclio/pkg/nuctl/command"
-	"github.com/nuclio/nuclio/pkg/version"
+	"github.com/pmker/genv/pkg/cmdrunner"
+	"github.com/pmker/genv/pkg/dockerclient"
+	"github.com/pmker/genv/pkg/nuctl/command"
+	"github.com/pmker/genv/pkg/version"
 
 	"github.com/nuclio/logger"
 	"github.com/nuclio/zap"

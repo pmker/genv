@@ -23,8 +23,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/platform"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/platform"
 
 	"github.com/nuclio/logger"
 )

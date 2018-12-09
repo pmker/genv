@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/processor"
-	"github.com/nuclio/nuclio/pkg/processor/runtime"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/processor"
+	"github.com/pmker/genv/pkg/processor/runtime"
 
 	"github.com/nuclio/zap"
 	"github.com/stretchr/testify/suite"

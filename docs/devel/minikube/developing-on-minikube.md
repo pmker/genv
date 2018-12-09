@@ -29,7 +29,7 @@ This will make the latest versions of our locally-built images available from th
 
 The `nuclio.yaml` resource specification that we feed `kubectl apply` with when deploying a released Nuclio version always points to controller and dashboard images fixed to that version. In our case, we must use a modified version:
 ```sh
-kubectl apply -f https://raw.githubusercontent.com/nuclio/nuclio/development/hack/minikube/resources/devel/nuclio.yaml
+kubectl apply -f https://raw.githubusercontent.com/pmker/genv/development/hack/minikube/resources/devel/nuclio.yaml
 ```
 It differs from the usual `nuclio.yaml` in that:
 1) Controller/dashboard images are "latest", resulting in the images you pushed in the last step being used

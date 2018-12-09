@@ -62,7 +62,7 @@ Table of contents:
             "image": "localhost:5000/",
             "alias": "latest",
             "build": {
-                "path": "https://raw.githubusercontent.com/nuclio/nuclio/master/hack/examples/golang/helloworld/helloworld.go",
+                "path": "https://raw.githubusercontent.com/pmker/genv/master/hack/examples/golang/helloworld/helloworld.go",
                 "registry": "192.168.64.7:5000",
                 "noBaseImagesPull": true
             },
@@ -135,7 +135,7 @@ To create a function, provide the following request and then periodically GET th
     "spec": {
         "runtime": "golang",
         "build": {
-            "path": "https://raw.githubusercontent.com/nuclio/nuclio/master/hack/examples/golang/helloworld/helloworld.go",
+            "path": "https://raw.githubusercontent.com/pmker/genv/master/hack/examples/golang/helloworld/helloworld.go",
             "registry": "192.168.64.7:5000",
             "noBaseImagesPull": true
         },

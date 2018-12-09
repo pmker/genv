@@ -20,8 +20,8 @@ import (
 	"path"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/dockerclient"
-	"github.com/nuclio/nuclio/pkg/processor/test/suite"
+	"github.com/pmker/genv/pkg/dockerclient"
+	"github.com/pmker/genv/pkg/processor/test/suite"
 )
 
 // BrokerSuite tests a broker by producing messages

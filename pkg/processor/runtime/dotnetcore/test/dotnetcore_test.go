@@ -21,8 +21,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/http/test/suite"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/processor/trigger/http/test/suite"
 
 	"github.com/stretchr/testify/suite"
 )
@@ -40,7 +40,7 @@ func (suite *TestSuite) SetupTest() {
 
 func (suite *TestSuite) TestOutputs() {
 	// TODO: Have common tests and use here and in Python
-	// see https://github.com/nuclio/nuclio/issues/227
+	// see https://github.com/pmker/genv/issues/227
 
 	statusOK := http.StatusOK
 	statusCreated := http.StatusCreated

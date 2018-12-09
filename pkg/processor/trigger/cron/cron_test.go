@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/processor/test/suite"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/processor/test/suite"
 
 	cronlib "github.com/robfig/cron"
 	"github.com/stretchr/testify/assert"

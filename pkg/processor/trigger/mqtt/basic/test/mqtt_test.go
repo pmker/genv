@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/common"
-	"github.com/nuclio/nuclio/pkg/dockerclient"
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/mqtt"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/test"
+	"github.com/pmker/genv/pkg/common"
+	"github.com/pmker/genv/pkg/dockerclient"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/processor/trigger/mqtt"
+	"github.com/pmker/genv/pkg/processor/trigger/test"
 
 	mqttclient "github.com/eclipse/paho.mqtt.golang"
 	"github.com/stretchr/testify/suite"

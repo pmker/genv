@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/errors"
+	"github.com/pmker/genv/pkg/errors"
 )
 
 // IsFile returns true if the object @ path is a file

@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/processor/build/runtime/test/suite"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/http/test/suite"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/processor/build/runtime/test/suite"
+	"github.com/pmker/genv/pkg/processor/trigger/http/test/suite"
 
 	"github.com/stretchr/testify/suite"
 )

@@ -19,9 +19,9 @@ package resource
 import (
 	"net/http"
 
-	"github.com/nuclio/nuclio/pkg/dashboard"
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/restful"
+	"github.com/pmker/genv/pkg/dashboard"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/restful"
 )
 
 type externalIPAddressesResource struct {

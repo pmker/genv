@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nuclio/nuclio/pkg/errors"
+	"github.com/pmker/genv/pkg/errors"
 
 	"github.com/go-chi/chi"
 	"github.com/nuclio/logger"

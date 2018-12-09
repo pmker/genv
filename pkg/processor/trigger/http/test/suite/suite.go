@@ -26,9 +26,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/processor/test/suite"
-	"github.com/nuclio/nuclio/test/compare"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/processor/test/suite"
+	"github.com/pmker/genv/test/compare"
 
 	"github.com/nuclio/nuclio-sdk-go"
 )

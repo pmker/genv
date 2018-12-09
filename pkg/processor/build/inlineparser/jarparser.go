@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/nuclio/nuclio/pkg/errors"
+	"github.com/pmker/genv/pkg/errors"
 
 	"github.com/nuclio/logger"
 	"gopkg.in/yaml.v2"

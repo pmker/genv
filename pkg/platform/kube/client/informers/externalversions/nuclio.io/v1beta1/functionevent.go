@@ -21,10 +21,10 @@ package v1beta1
 import (
 	time "time"
 
-	nuclio_io_v1beta1 "github.com/nuclio/nuclio/pkg/platform/kube/apis/nuclio.io/v1beta1"
-	versioned "github.com/nuclio/nuclio/pkg/platform/kube/client/clientset/versioned"
-	internalinterfaces "github.com/nuclio/nuclio/pkg/platform/kube/client/informers/externalversions/internalinterfaces"
-	v1beta1 "github.com/nuclio/nuclio/pkg/platform/kube/client/listers/nuclio.io/v1beta1"
+	nuclio_io_v1beta1 "github.com/pmker/genv/pkg/platform/kube/apis/nuclio.io/v1beta1"
+	versioned "github.com/pmker/genv/pkg/platform/kube/client/clientset/versioned"
+	internalinterfaces "github.com/pmker/genv/pkg/platform/kube/client/informers/externalversions/internalinterfaces"
+	v1beta1 "github.com/pmker/genv/pkg/platform/kube/client/listers/nuclio.io/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

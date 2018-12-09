@@ -17,7 +17,7 @@ limitations under the License.
 package kube
 
 import (
-	"github.com/nuclio/nuclio/pkg/platform"
+	"github.com/pmker/genv/pkg/platform"
 
 	"k8s.io/api/core/v1"
 )

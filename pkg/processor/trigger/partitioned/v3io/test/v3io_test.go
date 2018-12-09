@@ -22,9 +22,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/test"
-	"github.com/nuclio/nuclio/pkg/processor/util/v3io"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/processor/trigger/test"
+	"github.com/pmker/genv/pkg/processor/util/v3io"
 
 	"github.com/rs/xid"
 	"github.com/stretchr/testify/suite"

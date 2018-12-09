@@ -17,7 +17,7 @@ limitations under the License.
 package appinsights
 
 import (
-	"github.com/nuclio/nuclio/pkg/processor/trigger"
+	"github.com/pmker/genv/pkg/processor/trigger"
 
 	"github.com/Microsoft/ApplicationInsights-Go/appinsights"
 )

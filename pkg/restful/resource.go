@@ -22,8 +22,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/registry"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/registry"
 
 	"github.com/go-chi/chi"
 	"github.com/nuclio/logger"

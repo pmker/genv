@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/nuclio/nuclio/pkg/dockerclient"
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/test"
+	"github.com/pmker/genv/pkg/dockerclient"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/processor/trigger/test"
 
 	"github.com/Shopify/sarama"
 	"github.com/stretchr/testify/suite"

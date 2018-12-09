@@ -22,10 +22,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/playground"
-	"github.com/nuclio/nuclio/pkg/playground/fixtures"
-	"github.com/nuclio/nuclio/pkg/restful"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/playground"
+	"github.com/pmker/genv/pkg/playground/fixtures"
+	"github.com/pmker/genv/pkg/restful"
 
 	"github.com/go-chi/chi"
 )

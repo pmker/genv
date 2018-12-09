@@ -19,9 +19,9 @@ package factory
 import (
 	"fmt"
 
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/platform/kube"
-	"github.com/nuclio/nuclio/pkg/platform/local"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/platform/kube"
+	"github.com/pmker/genv/pkg/platform/local"
 
 	"github.com/nuclio/logger"
 )

@@ -19,9 +19,9 @@ package stdout
 import (
 	"os"
 
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/loggersink"
-	"github.com/nuclio/nuclio/pkg/platformconfig"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/loggersink"
+	"github.com/pmker/genv/pkg/platformconfig"
 
 	"github.com/nuclio/logger"
 	"github.com/nuclio/zap"

@@ -150,16 +150,16 @@ unset mypassword
 ```
 
 **Create the RBAC roles** that are required for using Nuclio:
-> Note: You are encouraged to look at the [**nuclio-rbac.yaml**](https://github.com/nuclio/nuclio/blob/master/hack/k8s/resources/nuclio-rbac.yaml) file that's used in the following command before applying it, so that you don't get into the habit of blindly running things on your cluster (akin to running scripts off the internet as root).
+> Note: You are encouraged to look at the [**nuclio-rbac.yaml**](https://github.com/pmker/genv/blob/master/hack/k8s/resources/nuclio-rbac.yaml) file that's used in the following command before applying it, so that you don't get into the habit of blindly running things on your cluster (akin to running scripts off the internet as root).
 
 ```sh
-kubectl apply -f https://raw.githubusercontent.com/nuclio/nuclio/master/hack/k8s/resources/nuclio-rbac.yaml
+kubectl apply -f https://raw.githubusercontent.com/pmker/genv/master/hack/k8s/resources/nuclio-rbac.yaml
 ```
 
 **Deploy Nuclio to the cluster:** the following command deploys the Nuclio controller and dashboard and the [Træfik](https://docs.traefik.io/) ingress controller, among other resources:
 
 ```sh
-kubectl apply -f https://raw.githubusercontent.com/nuclio/nuclio/master/hack/aks/resources/nuclio.yaml
+kubectl apply -f https://raw.githubusercontent.com/pmker/genv/master/hack/aks/resources/nuclio.yaml
 ```
 
 Use the command `kubectl get pods --namespace nuclio` to verify both the controller and dashboard are running.

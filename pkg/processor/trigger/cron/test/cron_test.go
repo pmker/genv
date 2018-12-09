@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nuclio/nuclio/pkg/functionconfig"
-	"github.com/nuclio/nuclio/pkg/platform"
-	"github.com/nuclio/nuclio/pkg/processor/test/suite"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/test"
+	"github.com/pmker/genv/pkg/functionconfig"
+	"github.com/pmker/genv/pkg/platform"
+	"github.com/pmker/genv/pkg/processor/test/suite"
+	"github.com/pmker/genv/pkg/processor/trigger/test"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"

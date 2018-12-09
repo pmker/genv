@@ -60,7 +60,7 @@ All Nuclio artifacts are versioned. They take their versions from one of two sou
 
 As of now, there is no auto-fallback to "latest" to prevent un-versioned binaries ever getting created. As such, make sure to pass the following to `Go tool arguments` in the Run/Debug configuration:
 ```
--i -ldflags="-X github.com/nuclio/nuclio/pkg/version.label=latest -X github.com/nuclio/nuclio/pkg/version.arch=amd64"
+-i -ldflags="-X github.com/pmker/genv/pkg/version.label=latest -X github.com/pmker/genv/pkg/version.arch=amd64"
 ``` 
 
 ### Running the processor (Go)

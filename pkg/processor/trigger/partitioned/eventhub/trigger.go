@@ -17,11 +17,11 @@ limitations under the License.
 package eventhub
 
 import (
-	"github.com/nuclio/nuclio/pkg/errors"
-	"github.com/nuclio/nuclio/pkg/processor/trigger"
-	"github.com/nuclio/nuclio/pkg/processor/trigger/partitioned"
-	"github.com/nuclio/nuclio/pkg/processor/util/eventhub"
-	"github.com/nuclio/nuclio/pkg/processor/worker"
+	"github.com/pmker/genv/pkg/errors"
+	"github.com/pmker/genv/pkg/processor/trigger"
+	"github.com/pmker/genv/pkg/processor/trigger/partitioned"
+	"github.com/pmker/genv/pkg/processor/util/eventhub"
+	"github.com/pmker/genv/pkg/processor/worker"
 
 	eventhubclient "github.com/nuclio/amqp"
 	"github.com/nuclio/logger"
