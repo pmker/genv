@@ -36,7 +36,7 @@ RUN npm install -g gulp \
 FROM golang:1.10 as build-binary
 
 # copy source tree
-WORKDIR /go/src/github.com/nuclio/nuclio
+WORKDIR /go/src/github.com/pmker/genv
 COPY . .
 
 # build the dashboard
