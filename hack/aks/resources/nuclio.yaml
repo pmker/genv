@@ -95,7 +95,7 @@ spec:
     spec:
       containers:
       - name: nuclio-controller
-        image: quay.io/nuclio/controller:0.7.2-amd64
+        image: koinotice/controller:0.7.2-amd64
         env:
         - name: NUCLIO_CONTROLLER_IMAGE_PULL_SECRETS
           value: registry-credentials
@@ -122,7 +122,7 @@ spec:
     spec:
       containers:
       - name: nuclio-dashboard
-        image: quay.io/nuclio/dashboard:0.7.2-amd64
+        image: koinotice/dashboard:0.7.2-amd64
         ports:
         - containerPort: 8070
         volumeMounts:

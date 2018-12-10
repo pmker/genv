@@ -18,7 +18,7 @@ FROM golang:1.10 as processor
 # Create processor binary
 #
 
-WORKDIR /go/src/github.com/nuclio/nuclio
+WORKDIR /go/src/github.com/pmker/genv
 COPY . .
 
 RUN go get github.com/v3io/v3io-go-http \
@@ -33,7 +33,7 @@ RUN mkdir -p /opt/nuclio
 # Make the processor binary
 RUN mkdir -p /home/nuclio/bin \
     && GOOS=linux GOARCH=amd64 go build -a -installsuffix cgo -ldflags="-s -w" -o /home/nuclio/bin/processor cmd/processor/main.go \
-    && rm -rf /go/src/github/nuclio/nuclio
+    && rm -rf /go/src/github/pmker/genv
 
 FROM golang:1.10
 
